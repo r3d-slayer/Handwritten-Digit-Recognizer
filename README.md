@@ -64,7 +64,7 @@ Open **Neural Network.ipynb** and run all cells to:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 | Layer | Type    | Output | Activation | Description                      |
 |-------|---------|--------|------------|----------------------------------|

@@ -34,3 +34,48 @@ Includes:
 Predicts a custom handwritten digit (`digit (3).png`).
 
 ---
+
+Open `index.html` in any browser.
+
+Draw a digit and click **Get 28×28 Pixel Data** to see the normalized data in the browser console.
+
+---
+
+### 2. Training the Model
+
+Required Python packages:  
+tensorflow  
+keras  
+numpy  
+pandas  
+matplotlib  
+seaborn  
+pillow  
+jupyter  
+
+Run Jupyter Notebook.
+
+Open **Neural Network.ipynb** and run all cells to:
+
+- Load and preprocess MNIST  
+- Build and train the model  
+- Evaluate accuracy (around 97–98%)  
+- Test a custom image (`digit (3).png`)  
+
+---
+
+## 🧠 Model Architecture
+
+| Layer | Type    | Output | Activation | Description                      |
+|-------|---------|--------|------------|----------------------------------|
+| 0     | Flatten | 784    | —          | Converts 28×28 image to vector   |
+| 1     | Dense   | 100    | Sigmoid    | Hidden layer                     |
+| 2     | Dense   | 100    | Sigmoid    | Hidden layer                     |
+| 3     | Dense   | 10     | Softmax    | Output layer                     |
+
+Optimizer: **adam**  
+Loss: **sparse_categorical_crossentropy**  
+Accuracy: **~97–98%**
+
+---
+

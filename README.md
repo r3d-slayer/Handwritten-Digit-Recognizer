@@ -37,4 +37,8 @@ The notebook can load and classify a custom handwritten digit image (`digit (3).
 ---
 
 ## 🛠️ Project Structure
-
+.
+├── index.html # Interactive digit drawing tool
+├── Neural Network.ipynb # Model training notebook
+├── digit (3).png # Sample prediction image
+└── README.md # Documentation

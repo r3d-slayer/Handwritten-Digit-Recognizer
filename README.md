@@ -1,44 +1,36 @@
-# ✍️ Handwritten Digit Recognizer (MNIST)
+# Handwritten Digit Recognizer
 
-This repository contains a full end-to-end handwritten digit recognition project.  
+This repository contains a complete end-to-end handwritten digit recognition project.
+
 It includes:
 
-- A **web-based digit drawing tool** (`index.html`) for capturing custom digits  
-- A **Jupyter Notebook** (`Neural Network.ipynb`) demonstrating training and evaluation of a deep learning model using the MNIST dataset
+- A web-based digit drawing tool (`index.html`)
+- A Jupyter Notebook (`Neural Network.ipynb`) for training and evaluating a deep learning model using the MNIST dataset
 
 ---
 
-## 🚀 Features
+##  Features
 
-### **Interactive Drawing Tool**
-A simple HTML/CSS/JavaScript tool where users can draw digits (0–9) using mouse or touch.
+### Interactive Drawing Tool
+A simple HTML and JavaScript interface for drawing digits (0–9).
 
-### **Data Preprocessing**
-The web app converts the drawing into a **28×28 grayscale pixel array**, matching MNIST input format.
+### Data Preprocessing
+The web app converts drawings into a 28×28 grayscale format suitable for MNIST models.
 
-### **Neural Network Training**
-A step-by-step Jupyter Notebook that includes:
-
-- Loading the MNIST dataset  
-- Normalizing data  
-- Building a TensorFlow/Keras neural network  
-- Training & validating the model  
-
-### **Evaluation**
+### Neural Network Training
 The notebook includes:
+- Loading the MNIST dataset  
+- Normalizing the data  
+- Building a TensorFlow/Keras neural network  
+- Training and validating the model  
 
+### Evaluation
+Includes:
 - Accuracy and loss metrics  
-- Confusion Matrix visualization  
-- Real prediction examples  
+- Confusion Matrix  
+- Predictions on sample digits  
 
-### **Custom Prediction**
-The notebook can load and classify a custom handwritten digit image (`digit (3).png`).
+### Custom Prediction
+Predicts a custom handwritten digit (`digit (3).png`).
 
 ---
-
-## 🛠️ Project Structure
-.
-├── index.html # Interactive digit drawing tool
-├── Neural Network.ipynb # Model training notebook
-├── digit (3).png # Sample prediction image
-└── README.md # Documentation
